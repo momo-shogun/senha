@@ -81,7 +81,7 @@ export default function App() {
       <View className="my-5 flex flex-row justify-between items-center gap-8">
         <Text className="text-white text-2xl font-bold">Password Length</Text>
         <TextInput
-          className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base"
+          className="text-black bg-white text-xl font-bold w-28 p-4"
           placeholder="ex 8"
           onChangeText={text => setPasswordLength(text)}
           value={passwordLength}
